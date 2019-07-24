@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    
+    <!-- 
+        The idea would be to have dynamically created buttons, whose values are the same as the names
+        assigned to them, which also serve as keywords to search through the giphy api.
+
+        JS/HTML
+        This would be done by creating some sort of array with the list of keywords i would use
+        for said search, and then iterate over this array to create each of the buttons, with a text
+        input for the user to manually create their own search keywords that would essentially 
+        take the user's input and push it into the keyword array, with a function to re-render
+        the keyword array, thus adding the user input keyword to the page of keyword buttons.
+
+        HTML
+        the display would just be an api query limit of 10 to keep the page relatively clutter-free,
+        with a toggle function on each dynamically created gif div that serves to 'start' and 'stop'
+        the gifs.
+
+        each dynamically created gif would also have a setAttribute done on them to add the various
+        entries into the 'dataset', such as still, or animated.
+     -->
 
 
     <script src="./assets/js/app.js"></script>
